@@ -1,0 +1,117 @@
+html {
+    font-size: 10px;
+}
+
+nav {
+    border: 5px solid #464159;
+    border-bottom-right-radius: 150px;
+    border-top-left-radius: 150px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+header {
+    font-family: 'Oldenburg', cursive;
+}
+
+main {
+    font-family: 'Inconsolata', monospace;
+}
+
+button {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+body {
+    background-image: linear-gradient( #6c7b95, #8bbabb, #c7f0db);
+    padding-bottom: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #464159;
+    font-size: 7em;
+}
+
+li {
+    font-size: 1.7em;
+    line-height: 1.5em;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.row {
+    display: flex;
+}
+
+.photo-banner {
+    flex: 50%;
+    padding: 5px;
+}
+
+.photo1, .photo2 {
+    border: 3px solid #464159;
+    border-style: ridge;
+}
+
+
+a:visited {
+    color: black ;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #464159;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: rgba(108, 123, 149, 0.5);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #8bbabb;
+  }
+  
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: none;
+    display: none;
+    overflow: visible;
+  }
+
+/*ADD "ul" RULE WITH "list-style-image:" you need to create a class for every category. bread for a bread icon. knife and fork for dinner. etc*/
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+ul.cat2 li {
+    background-image: url(/recipes/images-recipe-index-icons/bread-icon.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+
+}
